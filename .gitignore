@@ -1,0 +1,59 @@
+# Build directories
+build/
+install/
+
+# MuJoCo log file
+MUJOCO_LOG.TXT
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!cmake/
+
+# Compiled binaries
+*.o
+*.so
+*.so.*
+*.a
+*.exe
+*.out
+*.app
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+dist/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.orig
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# System files
+.directory
+Thumbs.db
