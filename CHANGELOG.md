@@ -2,6 +2,24 @@
 
 All notable changes and additions to this MuJoCo setup repository.
 
+## [2025-11-02] - Removed Conda Dependencies
+
+### Removed
+- All conda environment setup scripts and references
+- `setup_conda_env.sh` - Conda environment setup script
+- `conda-activate.sh` - Conda activation hook
+- `conda-deactivate.sh` - Conda deactivation hook
+- `environment.yml` - Conda environment definition
+
+### Modified
+- **`SETUP.md`** - Removed "Python Environment" section with conda setup
+- **`README.md`** - Removed conda activation from "After Setup" section and package versions
+- **`QUICK_REFERENCE.md`** - Removed "Conda Environment" section and activation commands
+- **`CHANGELOG.md`** - Updated to reflect C++ focus
+
+### Rationale
+This is a pure C++ project focused on MuJoCo physics simulation. Python bindings are available separately via `pip install mujoco` if needed, so conda environment management is not necessary for this repository.
+
 ## [2025-11-02] - Build Automation & Documentation
 
 ### Added
@@ -108,12 +126,15 @@ All notable changes and additions to this MuJoCo setup repository.
 - Hello World example program
 - Comprehensive documentation suite
 - Directory structure following MuJoCo guidelines
+- Build automation scripts
 
 ### Documentation
 - `README.md` - Project overview
 - `SETUP.md` - Detailed setup guide
 - `QUICK_REFERENCE.md` - Command reference
 - `EXAMPLES.md` - Example commands
+- `GETTING_STARTED.md` - Beginner's guide
+- `BUILD_SCRIPTS.md` - Build automation reference
 
 ### Example Project
 - `mujoco-hello-world/` - Complete C++ example
@@ -121,6 +142,7 @@ All notable changes and additions to this MuJoCo setup repository.
   - CMake build configuration
   - Model file and source code
   - Project-specific README
+  - Automated build script
 
 ---
 

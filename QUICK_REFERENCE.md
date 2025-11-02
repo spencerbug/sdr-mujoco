@@ -25,11 +25,6 @@ cd mujoco-hello-world
 
 ## Quick Start Commands
 
-### Activate Environment
-```bash
-conda activate mujoco-dev
-```
-
 ### Run Hello World
 ```bash
 cd /root/sdr-mujoco/mujoco-hello-world
@@ -236,29 +231,6 @@ ls /root/sdr-mujoco/install/include/mujoco/
 # Run a sample
 /root/sdr-mujoco/install/bin/basic \
   /root/sdr-mujoco/install/share/mujoco/model/humanoid/humanoid.xml
-```
-
-## Conda Environment
-
-### Activate
-```bash
-conda activate mujoco-dev
-```
-
-### Deactivate
-```bash
-conda deactivate
-```
-
-### List packages
-```bash
-conda list
-```
-
-### Install additional Python packages
-```bash
-conda activate mujoco-dev
-pip install numpy matplotlib  # etc.
 ```
 
 ## Tips

@@ -47,9 +47,6 @@ cd mujoco-hello-world
 ### After Setup
 
 ```bash
-# Activate conda environment (optional)
-conda activate mujoco-dev
-
 # Run interactive simulator
 ./install/bin/simulate install/share/mujoco/model/humanoid/humanoid.xml
 ```
@@ -161,7 +158,6 @@ If you encounter problems:
 - **MuJoCo**: 3.3.8
 - **CMake**: 3.28.3
 - **GCC**: 13.3.0
-- **Python**: 3.11 (conda environment)
 - **OS**: Ubuntu 24.04
 
 ## 🎓 Learning Path

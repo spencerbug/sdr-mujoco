@@ -37,17 +37,6 @@ sudo apt-get install -y \
 - `libxinerama-dev`, `libxcursor-dev`, `libxi-dev` - X11 extensions
 - `libxkbcommon-dev` - Keyboard handling library (required by GLFW)
 
-### Python Environment
-
-Created a conda environment for potential Python development:
-
-```bash
-conda create -n mujoco-dev python=3.11 -y
-conda activate mujoco-dev
-```
-
-**Note**: The conda environment is optional for C++ development but recommended if you plan to use MuJoCo's Python bindings later.
-
 ## Building MuJoCo from Source
 
 ### Quick Start (Automated)
